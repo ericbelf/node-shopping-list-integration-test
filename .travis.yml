@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: K/zybjPf+tbs0CFZxbi8zDkyFY3GoY12SThQx0ohKPlZ+H6W2jGeGFv88X3hiGnlaAjlAnZj5zH37qwNNRfzj3olcmaCOebvI66rDzi1MshxcAEZ+HzDQMHcqTHlCTMKr2A5i4ktkaXH+n2c1Mo0R15Thzb6AzEwiVauzIj42tgvQPEy6obzOSeEayz+OccwDAByUJBQ4MQzVt7Gas+rKOS+LM3VFqrHhr7T2sR2t4+w97ipKOU5ZZRcCf2KDap+r9OKzwjpxfs82eRL6SdiYWzRqRGIH1Tic9wu7YYcEMD5yntdiW96HfRgh93oA+QPbUJvcESQs0W0vtCrDvKmdjkbRwE+YVXiH1h9md6OI4qI/72mpke2fzcwqC6WXAcObFgb6SjGPuT6xFSj7okMFcExRvLgm7kWgN6Uiw/IL+65vhjQqcuYutTEOPVOUY6cCkghEZOoO6dsDmY3OybJkpJaL+mCD0tNgE54fLqmNZJ8k9HhxX4kXYCyEm+zkpJvWsujuCBv4Vhj1gO5VygkUxxqZpPvzqomLLMg0sKC3LnvG2mQLPEub/f+EQZKtmSwZjWsW1ezc3VGvTnTd/zE4oM6fnH1sd+rAS9hv4z118YtiDO3jKDiWw9BRjlY03y9l2pddCVi0dJ9X98nHMVdJOEnZSGDCP+P7sQ5zjKYipY=
+  app: radiant-dusk-18971
+  on:
+    repo: ericbelf/node-shopping-list-integration-test
