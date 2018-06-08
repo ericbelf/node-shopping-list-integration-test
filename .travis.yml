@@ -3,6 +3,6 @@ node_js: node
 deploy:
   provider: heroku
   api_key: b44948b8-45e5-42c8-a0e8-9b5eca5129a3
-  app: radiant-dusk-18971
+  app: obscure-atoll-99550
   on:
     repo: ericbelf/node-shopping-list-integration-test
